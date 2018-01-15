@@ -55,11 +55,14 @@ html {
    z-index: 1;
 }
 
-
+.pyramid-container:hover,
+.pyramid-container:active,
 .pyramid-container:focus {
    color: white;
 }
 
+.pyramid-container:hover .layer-2,
+.pyramid-container:active .layer-2,
 .pyramid-container:focus .layer-2 {
    top: 120px;
 
@@ -67,7 +70,8 @@ html {
    background-image: linear-gradient(to bottom right, #50d9f1, #c77ff2);
 }
 
-
+.pyramid-container:hover .layer-3,
+.pyramid-container:active .layer-3,
 .pyramid-container:focus .layer-3 {
    top: 240px;
 
