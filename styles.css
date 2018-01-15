@@ -55,11 +55,11 @@ html {
    z-index: 1;
 }
 
-.pyramid-container:hover, .pyramid-container:active {
+.pyramid-container:hover, .pyramid-container:focus {
    color: white;
 }
 
-.pyramid-container:hover .layer-2, .pyramid-container:active .layer-2 {
+.pyramid-container:hover .layer-2, .pyramid-container:focus .layer-2 {
    top: 120px;
 
    background-image: -webkit-gradient(linear, left top, right bottom, from(#50d9f1), to(#c77ff2));
